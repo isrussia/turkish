@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 800px;
+  background: url("../img/background/header_bg.jpg") center center/cover
+    no-repeat;
+  padding: 25px 0 29px 0;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo .logo_text {
+  width: 125px;
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fdfdfd;
+  margin-left: 33px;
+}
+.navbar {
+  margin: 0 140px;
+}
+.navbar .nav_text {
+  display: flex;
+  width: 329px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.navbar .nav_text_part {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+}
+.header .name {
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  color: #fdfdfd;
+  text-align: center;
+  margin-top: 231px;
+}
+.weather {
+  width: 130px;
+  position: relative;
+  top: 150px;
+  left: 850px;
+}
+.weather .weather_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.weather .weather_text span {
+  color: #c13603;
+}
+.weather .weather_degree {
+  margin-top: 8px;
+}
+.weather .weather_number {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+  display: inline-block;
+}
+.choice {
+  min-height: 1100px;
+  padding: 50px 0 10px 0;
+  background: url("../img/background/map_bg_1.png") center center/cover
+    no-repeat;
+}
+.choice .choice_h2,
+.choice_h2_2 {
+  padding-left: 25px;
+  text-align: start;
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+.choice .choice_h2_2 {
+  margin-top: 143px;
+}
+.choice .choice_trip {
+  width: 1072px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.choice .trip_text {
+  width: 270px;
+}
+.choice .trip_img {
+  margin-top: 15px;
+}
+.choice .choice_btn,
+.choice_btn_2,
+.schedule .schedule_btn_2 {
+  display: block;
+  padding-top: 0.8rem;
+  text-align: center;
+  background-color: transparent;
+  width: 268px;
+  height: 50px;
+  margin-top: 84px;
+  border: 2px solid #c13603;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+.choice .choice_btn_2 {
+  margin: 0 auto;
+  margin-top: 103px;
+}
+.schedule .schedule_btn_2 {
+  margin: 0 auto;
+  margin-top: 34px;
+  color: #fff;
+}
+.members {
+  margin-top: 45px;
+  width: 537px;
+  display: flex;
+  justify-content: space-between;
+}
+.members .member {
+  width: 273px;
+}
+.members .member_name {
+  display: flex;
+}
+.member_name .member_name_name {
+  margin-top: 15px;
+  margin-left: 29px;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #000000;
+}
+.member .member_discr {
+  margin-top: 19px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.choice .choice_video {
+  position: absolute;
+  left: 597px;
+  bottom: 100px;
+}
+.schedule {
+  min-height: 1880px;
+  padding: 70px 0 150px 0;
+  background: url("../img/background/schedule.jpg") center center/cover
+    no-repeat;
+}
+.schedule .head_schedule {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+
+  color: #c13603;
+}
+.shedule_dates {
+  position: relative;
+}
+.schedule .schedule_name {
+  text-align: center;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 108px;
+
+  color: #ffffff;
+}
+.schedule .schedule_places {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 580px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.number_dates {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  color: #ffffff;
+}
+.month_dates {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  color: #ffffff;
+}
+.place_dates {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.dates_li {
+  text-align: start;
+  margin: 0 auto;
+  margin-top: 38px;
+  width: 284px;
+  display: flex;
+}
+.text_dates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 21px;
+  height: 100px;
+}
+.number_dates {
+  width: 144px;
+}
+.schedule_dates_header {
+  width: 214px;
+  position: absolute;
+  top: 15px;
+  left: 250px;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 110%;
+  text-align: right;
+  color: #ffffff;
+}
+.bottom_line {
+  width: 1160px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000;
+}
+.footer {
+  height: 288px;
+}
+.logo_footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.logo_footer_text {
+  width: 125px;
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+  margin-left: 33px;
+}
+.footer_logo_text .footer_text {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #000;
+}
+.footer_logo_text {
+  display: flex;
+  justify-content: space-between;
+}

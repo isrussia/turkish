@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: local('Philosopher Bold'), local('Philosopher-Bold'),
+        url('Philosopher-Bold.woff2') format('woff2'),
+        url('Philosopher-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
